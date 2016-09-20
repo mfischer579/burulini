@@ -14,6 +14,7 @@
 		4C718CED1D92006A00184E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C718CEB1D92006A00184E27 /* LaunchScreen.storyboard */; };
 		4C718CF81D92006B00184E27 /* buruliniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718CF71D92006B00184E27 /* buruliniTests.swift */; };
 		4C718D031D92006B00184E27 /* buruliniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718D021D92006B00184E27 /* buruliniUITests.swift */; };
+		4C718D111D92027D00184E27 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718D101D92027D00184E27 /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4C718CFE1D92006B00184E27 /* buruliniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buruliniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C718D021D92006B00184E27 /* buruliniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buruliniUITests.swift; sourceTree = "<group>"; };
 		4C718D041D92006B00184E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C718D101D92027D00184E27 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4C718CE91D92006A00184E27 /* Assets.xcassets */,
 				4C718CEB1D92006A00184E27 /* LaunchScreen.storyboard */,
 				4C718CEE1D92006A00184E27 /* Info.plist */,
+				4C718D101D92027D00184E27 /* LandingViewController.swift */,
 			);
 			path = burulini;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C718CE51D92006A00184E27 /* ViewController.swift in Sources */,
+				4C718D111D92027D00184E27 /* LandingViewController.swift in Sources */,
 				4C718CE31D92006A00184E27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
