@@ -10,12 +10,6 @@ import UIKit
 
 class LandingViewController: UIViewController {
     
-    let landingImage = UIImage()
-    let viewRegistryButton = UIButton(type: .custom)
-    let registryOwnersButton = UIButton(type: .custom)
-    let createRegistryButton = UIButton(type: .custom)
-    let aboutButton = UIButton(type: .custom)
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
