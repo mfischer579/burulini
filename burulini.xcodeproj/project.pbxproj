@@ -207,15 +207,18 @@
 					4C718CDE1D92006A00184E27 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 36GWB94742;
+						LastSwiftMigration = 0800;
 					};
 					4C718CF21D92006B00184E27 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 36GWB94742;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4C718CDE1D92006A00184E27;
 					};
 					4C718CFD1D92006B00184E27 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 36GWB94742;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4C718CDE1D92006A00184E27;
 					};
 				};
@@ -497,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosedev.burulini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -508,6 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosedev.burulini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -519,6 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosedev.buruliniTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/burulini.app/burulini";
 			};
 			name = Debug;
@@ -531,6 +537,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosedev.buruliniTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/burulini.app/burulini";
 			};
 			name = Release;
@@ -542,6 +549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosedev.buruliniUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = burulini;
 			};
 			name = Debug;
@@ -553,6 +561,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosedev.buruliniUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = burulini;
 			};
 			name = Release;
