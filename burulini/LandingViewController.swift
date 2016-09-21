@@ -37,7 +37,7 @@ class LandingViewController: UIViewController {
         headerText.textAlignment = .Center
         topView.addSubview(headerText)
         headerText.snp_makeConstraints { (make) -> Void in
-            make.bottom.equalTo(topView).offset(-20)
+            make.bottom.equalTo(topView).offset(-17)
             make.height.equalTo(20)
             make.width.equalTo(topView)
         }
