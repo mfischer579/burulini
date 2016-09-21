@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004AE36113FB3EA65F7B2811 /* Pods_buruliniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD424B6C9AB3308AB95224 /* Pods_buruliniTests.framework */; };
 		4C718CE31D92006A00184E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718CE21D92006A00184E27 /* AppDelegate.swift */; };
-		4C718CE51D92006A00184E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718CE41D92006A00184E27 /* ViewController.swift */; };
 		4C718CE81D92006A00184E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C718CE61D92006A00184E27 /* Main.storyboard */; };
 		4C718CEA1D92006A00184E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C718CE91D92006A00184E27 /* Assets.xcassets */; };
 		4C718CED1D92006A00184E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C718CEB1D92006A00184E27 /* LaunchScreen.storyboard */; };
 		4C718CF81D92006B00184E27 /* buruliniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718CF71D92006B00184E27 /* buruliniTests.swift */; };
 		4C718D031D92006B00184E27 /* buruliniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718D021D92006B00184E27 /* buruliniUITests.swift */; };
 		4C718D111D92027D00184E27 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718D101D92027D00184E27 /* LandingViewController.swift */; };
+		4EFF02E5A1170406BF819B50 /* Pods_buruliniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DDC25718EA1FFD0768EB3A /* Pods_buruliniUITests.framework */; };
+		D113850CB5D7B43DD6C4A933 /* Pods_burulini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105376824CBF871AA017AABC /* Pods_burulini.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105376824CBF871AA017AABC /* Pods_burulini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_burulini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		232DF2A2A3D2DC873702C636 /* Pods-buruliniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buruliniTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buruliniTests/Pods-buruliniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		238675CE18A91A7D0164104E /* Pods-burulini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burulini.release.xcconfig"; path = "Pods/Target Support Files/Pods-burulini/Pods-burulini.release.xcconfig"; sourceTree = "<group>"; };
+		31607207EC7DC60F36FFB6F4 /* Pods-buruliniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buruliniUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-buruliniUITests/Pods-buruliniUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C718CDF1D92006A00184E27 /* burulini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = burulini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C718CE21D92006A00184E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C718CE41D92006A00184E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C718CE71D92006A00184E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C718CE91D92006A00184E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C718CEC1D92006A00184E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		4C718D021D92006B00184E27 /* buruliniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buruliniUITests.swift; sourceTree = "<group>"; };
 		4C718D041D92006B00184E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C718D101D92027D00184E27 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		60CD424B6C9AB3308AB95224 /* Pods_buruliniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buruliniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811A7542337A8DE4C38A888D /* Pods-burulini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-burulini.debug.xcconfig"; path = "Pods/Target Support Files/Pods-burulini/Pods-burulini.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE9B3D8E3E629BBF3347A9D /* Pods-buruliniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buruliniUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buruliniUITests/Pods-buruliniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A0074B484CD5C80CC06FE6 /* Pods-buruliniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buruliniTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-buruliniTests/Pods-buruliniTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1DDC25718EA1FFD0768EB3A /* Pods_buruliniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buruliniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D113850CB5D7B43DD6C4A933 /* Pods_burulini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004AE36113FB3EA65F7B2811 /* Pods_buruliniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFF02E5A1170406BF819B50 /* Pods_buruliniUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				4C718CF61D92006B00184E27 /* buruliniTests */,
 				4C718D011D92006B00184E27 /* buruliniUITests */,
 				4C718CE01D92006A00184E27 /* Products */,
+				FFBA6F974BC98345AF353489 /* Pods */,
+				59A175F246B24749D3731633 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				4C718CE21D92006A00184E27 /* AppDelegate.swift */,
-				4C718CE41D92006A00184E27 /* ViewController.swift */,
+				4C718D101D92027D00184E27 /* LandingViewController.swift */,
 				4C718CE61D92006A00184E27 /* Main.storyboard */,
 				4C718CE91D92006A00184E27 /* Assets.xcassets */,
 				4C718CEB1D92006A00184E27 /* LaunchScreen.storyboard */,
 				4C718CEE1D92006A00184E27 /* Info.plist */,
-				4C718D101D92027D00184E27 /* LandingViewController.swift */,
 			);
 			path = burulini;
 			sourceTree = "<group>";
@@ -128,6 +142,29 @@
 			path = buruliniUITests;
 			sourceTree = "<group>";
 		};
+		59A175F246B24749D3731633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				105376824CBF871AA017AABC /* Pods_burulini.framework */,
+				60CD424B6C9AB3308AB95224 /* Pods_buruliniTests.framework */,
+				F1DDC25718EA1FFD0768EB3A /* Pods_buruliniUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBA6F974BC98345AF353489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				811A7542337A8DE4C38A888D /* Pods-burulini.debug.xcconfig */,
+				238675CE18A91A7D0164104E /* Pods-burulini.release.xcconfig */,
+				232DF2A2A3D2DC873702C636 /* Pods-buruliniTests.debug.xcconfig */,
+				E7A0074B484CD5C80CC06FE6 /* Pods-buruliniTests.release.xcconfig */,
+				DFE9B3D8E3E629BBF3347A9D /* Pods-buruliniUITests.debug.xcconfig */,
+				31607207EC7DC60F36FFB6F4 /* Pods-buruliniUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C718D071D92006B00184E27 /* Build configuration list for PBXNativeTarget "burulini" */;
 			buildPhases = (
+				C983CF4758EF062303A37533 /* [CP] Check Pods Manifest.lock */,
 				4C718CDB1D92006A00184E27 /* Sources */,
 				4C718CDC1D92006A00184E27 /* Frameworks */,
 				4C718CDD1D92006A00184E27 /* Resources */,
+				6AF9E027EACD3621A2824F87 /* [CP] Embed Pods Frameworks */,
+				DC4CC9FBDBCD635EB9332FCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C718D0A1D92006B00184E27 /* Build configuration list for PBXNativeTarget "buruliniTests" */;
 			buildPhases = (
+				53B04866F7068BBB930B7B87 /* [CP] Check Pods Manifest.lock */,
 				4C718CEF1D92006B00184E27 /* Sources */,
 				4C718CF01D92006B00184E27 /* Frameworks */,
 				4C718CF11D92006B00184E27 /* Resources */,
+				867E7EE93909A3DE715AA0BE /* [CP] Embed Pods Frameworks */,
+				349D84BA1FD675088808BDF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C718D0D1D92006B00184E27 /* Build configuration list for PBXNativeTarget "buruliniUITests" */;
 			buildPhases = (
+				686F309C75CE8DDBE45FAE16 /* [CP] Check Pods Manifest.lock */,
 				4C718CFA1D92006B00184E27 /* Sources */,
 				4C718CFB1D92006B00184E27 /* Frameworks */,
 				4C718CFC1D92006B00184E27 /* Resources */,
+				8C05B25C949F83EB7EEA97D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +302,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		349D84BA1FD675088808BDF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-buruliniTests/Pods-buruliniTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B04866F7068BBB930B7B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		686F309C75CE8DDBE45FAE16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF9E027EACD3621A2824F87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-burulini/Pods-burulini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		867E7EE93909A3DE715AA0BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-buruliniTests/Pods-buruliniTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C05B25C949F83EB7EEA97D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-buruliniUITests/Pods-buruliniUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C983CF4758EF062303A37533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4CC9FBDBCD635EB9332FCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-burulini/Pods-burulini-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C718CDB1D92006A00184E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C718CE51D92006A00184E27 /* ViewController.swift in Sources */,
 				4C718D111D92027D00184E27 /* LandingViewController.swift in Sources */,
 				4C718CE31D92006A00184E27 /* AppDelegate.swift in Sources */,
 			);
@@ -404,6 +571,7 @@
 		};
 		4C718D081D92006B00184E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811A7542337A8DE4C38A888D /* Pods-burulini.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = burulini/Info.plist;
@@ -415,6 +583,7 @@
 		};
 		4C718D091D92006B00184E27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238675CE18A91A7D0164104E /* Pods-burulini.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = burulini/Info.plist;
@@ -426,6 +595,7 @@
 		};
 		4C718D0B1D92006B00184E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232DF2A2A3D2DC873702C636 /* Pods-buruliniTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = buruliniTests/Info.plist;
@@ -438,6 +608,7 @@
 		};
 		4C718D0C1D92006B00184E27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A0074B484CD5C80CC06FE6 /* Pods-buruliniTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = buruliniTests/Info.plist;
@@ -450,6 +621,7 @@
 		};
 		4C718D0E1D92006B00184E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE9B3D8E3E629BBF3347A9D /* Pods-buruliniUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = buruliniUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -461,6 +633,7 @@
 		};
 		4C718D0F1D92006B00184E27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31607207EC7DC60F36FFB6F4 /* Pods-buruliniUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = buruliniUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,6 +662,7 @@
 				4C718D091D92006B00184E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C718D0A1D92006B00184E27 /* Build configuration list for PBXNativeTarget "buruliniTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +671,7 @@
 				4C718D0C1D92006B00184E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C718D0D1D92006B00184E27 /* Build configuration list for PBXNativeTarget "buruliniUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +680,7 @@
 				4C718D0F1D92006B00184E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
