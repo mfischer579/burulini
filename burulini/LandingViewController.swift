@@ -23,7 +23,7 @@ class LandingViewController: UIViewController {
     }
     
     func configureView() {
-        view.backgroundColor = UIColor(red: 225/255, green: 225/255, blue: 225/255, alpha: 1)
+        view.backgroundColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
         
     }
 }

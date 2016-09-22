@@ -14,6 +14,7 @@
 		4C718CF81D92006B00184E27 /* buruliniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718CF71D92006B00184E27 /* buruliniTests.swift */; };
 		4C718D031D92006B00184E27 /* buruliniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718D021D92006B00184E27 /* buruliniUITests.swift */; };
 		4C718D111D92027D00184E27 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C718D101D92027D00184E27 /* LandingViewController.swift */; };
+		D8C43DBB1D932DEB006F4AA7 /* ViewRegistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C43DBA1D932DEB006F4AA7 /* ViewRegistryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4C718D021D92006B00184E27 /* buruliniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buruliniUITests.swift; sourceTree = "<group>"; };
 		4C718D041D92006B00184E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C718D101D92027D00184E27 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		D8C43DBA1D932DEB006F4AA7 /* ViewRegistryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRegistryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				4C718CE21D92006A00184E27 /* AppDelegate.swift */,
 				4C718D101D92027D00184E27 /* LandingViewController.swift */,
+				D8C43DBA1D932DEB006F4AA7 /* ViewRegistryViewController.swift */,
 				4C718CE61D92006A00184E27 /* Main.storyboard */,
 				4C718CE91D92006A00184E27 /* Assets.xcassets */,
 				4C718CEB1D92006A00184E27 /* LaunchScreen.storyboard */,
@@ -355,6 +358,7 @@
 			files = (
 				4C718D111D92027D00184E27 /* LandingViewController.swift in Sources */,
 				4C718CE31D92006A00184E27 /* AppDelegate.swift in Sources */,
+				D8C43DBB1D932DEB006F4AA7 /* ViewRegistryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
